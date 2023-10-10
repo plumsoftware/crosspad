@@ -1,0 +1,39 @@
+.title {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 54px;
+}
+
+.text-field {
+    border-radius: 32px;
+    background-color: #525252;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    width: 600px;
+}
+
+input {
+    margin-left: 24px;
+    color: #FFF;
+    background-color: transparent;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    caret-color: #FFED4C;
+}
+
+p{
+    color: #525252;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

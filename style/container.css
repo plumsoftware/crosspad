@@ -1,0 +1,27 @@
+body {
+    background-color: #282828;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subimg{
+    width: 24px;
+    height: 24px;
+}
+
+.divider{
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.div_item{
+    height: 4px;
+    width: 200px;
+    border-radius: 4px;
+    background: #525252;
+}
