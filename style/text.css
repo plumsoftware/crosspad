@@ -13,14 +13,29 @@
     background-color: #525252;
     margin-top: 24px;
     display: flex;
+    justify-content: center;
     align-items: center;
+    gap: 20px;
     padding: 24px;
+    width: 600px;
+}
+
+.search-field {
+    border-radius: 32px;
+    background-color: #525252;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 4px;
     width: 600px;
 }
 
 input {
     margin-left: 24px;
     color: #FFF;
+    width: 402px;
     background-color: transparent;
     font-size: 18px;
     border: none;

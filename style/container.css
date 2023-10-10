@@ -5,6 +5,14 @@ body {
     align-items: center;
 }
 
+.top_bar { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 100px; 
+    align-self: center; 
+}
+
 .subimg{
     width: 24px;
     height: 24px;
