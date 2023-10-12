@@ -21,5 +21,8 @@ document.querySelector('.sign_in_button').addEventListener('click', function() {
        alert('Пароли не совпадают!');
     } else {
        alert('Регистрация успешно завершена!');
+
+       localStorage.setItem("email", email);
+       localStorage.setItem("password", password);
     }
  });

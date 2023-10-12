@@ -1,7 +1,7 @@
 .title {
     color: #FFF;
     font-family: Roboto;
-    font-size: 40px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -17,7 +17,7 @@
     align-items: center;
     gap: 20px;
     padding: 24px;
-    width: 600px;
+    width: 500px;
 }
 
 .search-field {
@@ -29,13 +29,13 @@
     align-items: center;
     gap: 20px;
     padding: 4px;
-    width: 600px;
+    width: 500px;
 }
 
 input {
     margin-left: 24px;
     color: #FFF;
-    width: 402px;
+    width: 302px;
     background-color: transparent;
     font-size: 18px;
     border: none;
