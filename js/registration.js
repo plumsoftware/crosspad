@@ -24,5 +24,7 @@ document.querySelector('.sign_in_button').addEventListener('click', function() {
 
        localStorage.setItem("email", email);
        localStorage.setItem("password", password);
+
+       window.location.href = "notes.html";
     }
  });

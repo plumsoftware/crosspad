@@ -2,10 +2,11 @@
     color: #FFF;
     font-family: Roboto;
     font-size: 32px;
+    width: 100%;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin-top: 54px;
+    text-align: center;
 }
 
 .text-field {
@@ -29,13 +30,13 @@
     align-items: center;
     gap: 20px;
     padding: 4px;
-    width: 500px;
+    width: 100%;
 }
 
 input {
     margin-left: 24px;
     color: #FFF;
-    width: 302px;
+    width: 100%;
     background-color: transparent;
     font-size: 18px;
     border: none;
@@ -49,6 +50,17 @@ p{
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.overlay p {
+    color: white;
+    font-family: Roboto;
+    font-size: 28px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
     font-weight: 400;
     line-height: normal;
 }

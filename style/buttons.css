@@ -56,7 +56,8 @@
     align-self: center;
     border-radius: 32px;
     background: transparent;
-    width: 554px;
+    width: 100%;
+    max-width: 100%;
     margin-top: 0;
     margin-bottom: 0;
     color: #FFED4C;
@@ -101,7 +102,6 @@
 .profile_button {
     display: flex;
     padding: 10px;
-    flex-direction: column;
     align-items: center;
     align-self: center;
     justify-content: center;
@@ -163,4 +163,12 @@
     outline: none;
     border: none;
     overflow: hidden;
+}
+
+
+
+.close_button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }

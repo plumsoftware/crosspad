@@ -14,8 +14,56 @@
 
     <body>
 
+
+        <div class="overlay">
+            <div class="overlay_container">
+                <div class="top_bar">
+                    <button class="profile_button" id="close_add_note_overlay">
+                        <img src="../resources/img/close.svg" style="color: white;" class="subimg">
+                    </button>
+                    <h1 class="title" style="margin-right: 76px;">Добавление заметки</h1>
+                </div>
+            
+                <div class="text-field" style="width: 90%;">
+                    <input type="text" placeholder="Название">
+                </div>
+
+                <div class="text-field" style="width: 90%;">
+                    <input type="text" placeholder="Текст">
+                </div>
+
+                <button class="sign_in_button">Добавить</button>
+            </div>
+
+
+            <div class="profile_container">
+                <div class="top_bar">
+                    <button class="profile_button" id="close_profile_overlay">
+                        <img src="../resources/img/close.svg" style="color: white;" class="subimg">
+                    </button>
+                    <h1 class="title" style="margin-right: 76px;">Авторизация</h1>
+                </div>
+
+                <div class="text-field" style="width: 90%;" id="email_">
+                    <img class="subimg" src="../resources/img/profile.svg">
+                    <input type="text" placeholder="Почта">
+                </div>
+                <div class="text-field" style="width: 90%;" id="password_">
+                    <img class="subimg" src="../resources/img/lock.svg">
+                    <input type="password" placeholder="Пароль">
+                </div>
+                <div class="text-field" style="width: 90%;" id="password_2">
+                    <img class="subimg" src="../resources/img/lock.svg">
+                    <input type="password" placeholder="Пароль">
+                </div>
+
+                <button class="sign_in_button" id="save">Сохранить</button>
+            </div>
+        </div>
+
+
         <div class="top_bar">
-            <button class="profile_button">
+            <button class="profile_button" id="profile_button">
                 <img src="../resources/img/profile.svg" style="color: white;" class="subimg">
             </button>
             <div class="search-field">
@@ -29,9 +77,11 @@
             </div>
         </div>
 
-        <button class="floating_button">
+
+        <button class="floating_button" id="floating_button">
             <img src="../resources/img/add.svg" style="color: black;" class="subimg">
         </button>
+
 
         <script src="../js/notes.js"></script>
     </body>
