@@ -89,6 +89,8 @@ function addNote() {
     container.style.padding = '24px'; 
     container.style.borderRadius = '24px'; 
     container.style.backgroundColor = randomColor; 
+    container.style.wordWrap = 'break-word';
+    container.style.overflowWrap = 'break-word';
  
     const name = document.createElement('h4');
     name.style.marginTop = "0px";
@@ -104,11 +106,11 @@ function addNote() {
     date.textContent = getCurrentDate(); 
  
     container.append(name, text, date); 
-    
-    var listItem = document.createElement('li');
-    
-    listItem.appendChild(container);
-    noteList.appendChild(listItem);
+
+    var staggeredGridItem = document.createElement('div');
+    staggeredGridItem.classList.add('staggered-grid-item');
+    staggeredGridItem.appendChild(container);
+    document.getElementsByClassName("staggered-grid")[0].appendChild(staggeredGridItem);
     
     overlay.style.display = 'none';
 }

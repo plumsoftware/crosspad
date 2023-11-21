@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 100px;
-    width: 80%;
+    width: 100%;
     max-width: 100%;
 }
 
@@ -88,4 +88,16 @@ ul {
 
 li {
     display: block;
-  }
+}
+
+.staggered-grid {
+    display: grid;
+    grid-template-columns: minmax(20%, 100%) minmax(20%, 100%);
+    grid-gap: 20px;
+}
+
+.staggered-grid-item {
+    grid-column-end: span 1;
+    grid-row-end: span 1;
+    width: 100%;
+}
