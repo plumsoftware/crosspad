@@ -24,15 +24,15 @@
                     <h1 class="title" style="margin-right: 76px;">Добавление заметки</h1>
                 </div>
             
-                <div class="text-field" style="width: 90%;">
+                <div class="text-field" style="width: 90%;" id="noteName">
                     <input type="text" placeholder="Название">
                 </div>
 
-                <div class="text-field" style="width: 90%;">
+                <div class="text-field" style="width: 90%;" id="noteText">
                     <input type="text" placeholder="Текст">
                 </div>
 
-                <button class="sign_in_button">Добавить</button>
+                <button class="sign_in_button" id="add_note" onclick="addNote()">Добавить</button>
             </div>
 
 
@@ -81,6 +81,9 @@
         <button class="floating_button" id="floating_button">
             <img src="../resources/img/add.svg" style="color: black;" class="subimg">
         </button>
+
+        <ul id="noteList" style="list-style-type:none;">
+        </ul>
 
 
         <script src="../js/notes.js"></script>

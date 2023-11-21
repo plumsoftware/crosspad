@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 100px;
-    width: 100%;
+    width: 80%;
     max-width: 100%;
 }
 
@@ -81,3 +81,11 @@ body {
     align-items: start;
     width: 100%;
 }
+
+ul {
+    width: 80%;
+}
+
+li {
+    display: block;
+  }
